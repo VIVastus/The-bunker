@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Viewport meta tag  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <!-- Gridlex import -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
         <!-- Font awesome import -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title> The bunker Hotel Sydney</title>
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+        
 
         <link rel="stylesheet" href="/styles.css">
         
@@ -13,17 +21,20 @@
     <body>
 
         <!---------------- Header ------------------>
-        <header class="bg-image bg-roof">
-            <h1> The Bunker </h1>
+        <header class="bg-image bg-roof padded text-center light-text tall-70 grid">
+            <div class="col-12-middle">
+                <h1> The Bunker </h1>
+            </div>
+            
         </header>
 
         <!---------------- Dark Intro Section ------>
-        <section class="grid">
-            <div class="col-6 bg-image">
+        <section class="grid bg-featured light-text  padded">
+            <div class="col-6_sm-12 bg-image padded tall-60 bg-padded">
 
             </div>
-            <div class="col-6">
-                <h2> Lux </h2>
+            <div class="col-6_sm-12 padded-1">
+                <h2> Lux. </h2>
                 <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, illum quas commodi tenetur at optio hic labore consequuntur eum cum, animi repudiandae obcaecati dolorem, eligendi fugit aspernatur qui dolorum illo.</p>
                 <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur nemo id, repellat ipsa provident nisi expedita temporibus, eos neque necessitatibus facere magni? Quisquam, dolorem error? Reiciendis pariatur velit consequuntur id.</p>
             </div>
@@ -32,24 +43,26 @@
 
         <!-- Opening Banner -->
 
-        <section class="bg-image">
-            <h2> Opening Mid July</h2>
-            <h3> 2023 </h3>
+        <section class="bg-image bg-hallway padded text-center light-text tall-50 grid">
+            <div class="col-12-middle">
+                <h2> Opening Mid July</h2>
+                <h3> 2023 </h3>
+            </div>
         </section>
 
         <!-- Features/About blocks -->
 
-        <section class="grid">
-            <div class="col-6 ">
+        <section class="grid ">
+            <div class="col-6_sm-12-middle padded">
                <h2> Lobby dreams</h2>
                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi soluta facere. Reprehenderit minima nesciunt voluptate doloribus ipsa aliquam dolore, non cupiditate debitis enim beatae! Asperiores fugiat architecto a fugit.</p>
             </div>
-            <div class="col-6 bg-image"></div>
+            <div class="col-6_sm-12 bg-image bg-lounge tall-50 bg-padded"></div>
         </section>
 
-        <section class="grid">
-            <div class="col-6 bg-image"></div>
-            <div class="col-6 ">
+        <section class="grid flex-flip-sm">
+            <div class="col-6_sm-12 bg-image bg-lounge-2 tall-50 bg-padded "></div>
+            <div class="col-6_sm-12-middle padded ">
                <h2> The Bunker bar</h2>
                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi soluta facere. Reprehenderit minima nesciunt voluptate doloribus ipsa aliquam dolore, non cupiditate debitis enim beatae! Asperiores fugiat architecto a fugit.</p>
             </div>
@@ -57,17 +70,17 @@
         </section>
 
         <section class="grid">
-            <div class="col-6 ">
+            <div class="col-6_sm-12-middle padded ">
                <h2> Fall in Love</h2>
                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum modi soluta facere. Reprehenderit minima nesciunt voluptate doloribus ipsa aliquam dolore, non cupiditate debitis enim beatae! Asperiores fugiat architecto a fugit.</p>
             </div>
-            <div class="col-6 bg-image"></div>
+            <div class="col-6_sm-12 bg-image bg-sheets tall-50 bg-padded hide-sm"></div>
         </section>
 
         <!-- Socials section -->
 
-        <section class="bg-image">
-            <div>
+        <section class="bg-image text-right padded light-text bg-roof bg-top tall-50 grid">
+            <div class="col-12_sm-12-middle">
                 <h2> Hit us up on socials</h2>
                 <nav>
                     <a href="#"><i class="fa-brands fa-pinterest"></i></a>
@@ -79,25 +92,25 @@
         </section>
 
         <!-- Map -->
-        <section class="bg-image bg-map">
-            <a href="#" Get Directions></a>
+        <section class="bg-image bg-map bg-padded tall-60">
+            <a href="#" >Get Directions</a>
         </section>
 
 
         <!-- Footer -->
 
-        <footer class="grid">
-            <div class="col-6">
-                <h2 class="logo"> The Bunker</h2>
+        <footer class="grid bg-dark light-text">
+            <div class="col-8_sm-12 padded">
+                <h2 class="logo"> The<br> Bunker</h2>
             </div>
-            <div class="col-6">
+            <div class="col-4_sm-12-bottom padded">
                 <h4> Stay with us</h4>
                 <p><a href="#">100 Main st, Sydney</a></p>
-                <p><a href="#">welocme@thebunker.com</a> </p>
+                <p><a href="#">welcome@thebunker.com</a> </p>
                 <p><a href="#"> 1800 THE BUNKER</a></p>
             </div>
-            <div class="col-12"> 
-                <p>Copyright 2023</p>
+            <div class="col-12-middle "> 
+                <p class="text-center subtle">Copyright 2023</p>
             </div>
         </footer>
 

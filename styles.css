@@ -1,3 +1,8 @@
+/* 
+Font-weight300 400 500 700 900 
+ */
+
+
 *{
     padding:0;
     margin:0;
@@ -6,7 +11,7 @@
 
 /* ---------Temp Styles ------- */
 
-*{
+/* *{
     padding: 1rem;
     border: 2px solid black;
 }
@@ -15,6 +20,133 @@ html,body{ border: none;}
 
 h1,h2,h3,h4,h5,h6,p,a{border: 2px solid red;}
 
-.bg-image{background-color: teal;}
+.bg-image{background-color: teal;}  */
 
 /* --------End of tepm styles */
+
+
+
+.padded {padding:5%;}
+.padded-1 {padding:1rem;}
+.padded-2 {padding:2rem;}
+
+.margin-bot-0{margin-bottom: 0;}
+
+.tall-50{min-height: 50vh;}
+.tall-60{min-height: 60vh;}
+.tall-70{min-height: 70vh;}
+.tall-80{min-height: 80vh;}
+.tall-90{min-height: 90vh;}
+
+.bg-featured{background-color: #1c2a2c;}
+.bg-dark    {background-color: #24282b;}
+
+.light-text{color: white;}
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+.subtle{opacity: 50%; font-size: 0.8rem;}
+
+/*----------- Typography Styles --------------- */
+body{
+    font-family: "Raleway",sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+h1{font-size: 8rem;}
+
+h2{font-size: 3rem;}
+
+h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+footer h2{
+    line-height: 0.8;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    margin-bottom:0.2rem;
+}
+
+footer h2{
+    font-size: 6rem;
+}
+
+
+p,li{
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+a{
+    color:inherit;
+}
+nav a{
+    text-decoration: none;
+    font-size: 3rem;
+    padding-left:1rem;
+}
+
+a:hover{
+    color:aqua;
+}
+p:last-child,li:last-child{
+    margin-bottom: 0;
+}
+
+.bg-image{
+    background-color: #24282b;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/the-bunker-1.jpg");
+}
+
+.bg-roof{background-image: url("images/the-bunker-5.jpg");}
+.bg-bed{background-image: url("images/the-bunker-1.jpg");}
+.bg-hallway{background-image: url("images/the-bunker-3.jpg");}
+.bg-lounge{background-image: url("images/the-bunker-4.jpg");}
+.bg-lounge-2{background-image: url("images/the-bunker-2.jpg");}
+.bg-sheets{background-image: url("images/the-bunker-7.jpg");}
+.bg-map{background-image: url("images/the-bunker-6.png");}
+
+.bg-padded{padding-bottom: 30%;}
+
+.bg-top{    background-position: top;}
+
+/* Media Classes */
+
+/* sm = 768px */
+@media(max-width:48em){
+    .hide-sm{display: none;}
+
+    .flex-flip-sm{flex-direction: column-reverse}
+
+    h1{font-size: 4rem;}
+
+    footer h2{ font-size:3rem}
+
+    .bg-top{
+        background-image: none;
+        background-color:#1c2a2c;
+        min-height: 30vh;
+    }
+
+    .bg-map{min-height: 30vh;}
+
+}
